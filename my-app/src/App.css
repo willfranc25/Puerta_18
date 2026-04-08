@@ -17,6 +17,26 @@
   }
 }
 
+.boton {
+  font-size: 16px;
+  padding: 10px 20px;
+  border-radius: 8px;
+  color: white;
+  background: #007bff;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+
+  &:hover {
+    background: #0056b3;
+  }
+
+  &:focus-visible {
+    outline: 2px solid #007bff;
+    outline-offset: 2px;
+  }
+}
+
 .hero {
   position: relative;
 
